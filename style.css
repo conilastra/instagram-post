@@ -19,6 +19,15 @@ h1, h2 {
     font-weight: normal;
 }
 
+.big-icon {
+    font-size: 30px;
+}
+
+.small-icon {
+    font-size: 25px;
+}
+
+
 /* Post */
 .post {
     background-color: white;
@@ -38,10 +47,6 @@ h1, h2 {
     display: flex;
 }
 
-.header-logo {
-    font-size: 30px;
-}
-
 .header-text {
     display: flex;
     flex-wrap: wrap;
@@ -49,9 +54,6 @@ h1, h2 {
     width: 50px;;
 }
 
-.icon {
-    font-size: 25px;
-}
 
 /* Post Image */
 .post-image {
@@ -60,4 +62,18 @@ h1, h2 {
     background-size: cover;
     height: 300px;
     width: 400px;
+}
+
+/* Post Icons Section */
+.icons-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-content {
+    padding: 1rem;
+}
+
+.icons-content i {
+    padding-right: .5rem;
 }
