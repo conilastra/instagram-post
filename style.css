@@ -4,7 +4,6 @@ body {
 
 h1, h2 {
     display: inline-block;
-    font-family: 'Helvetica neue';
     margin: 0;
 }
 
@@ -17,6 +16,7 @@ h1, h2 {
 .normal-text {
     font-size: 14px;
     font-weight: normal;
+    font-family: 'Helvetica neue';
 }
 
 .big-icon {
@@ -31,8 +31,8 @@ h1, h2 {
 /* Post */
 .post {
     background-color: white;
-    height: 500px;
-    width: 400px
+    height: 570px;
+    width: 450px;
 }
 
 /* Post Header */
@@ -61,7 +61,7 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    width: 400px;
+    width: 450px;
 }
 
 /* Post Icons Section */
@@ -76,4 +76,9 @@ h1, h2 {
 
 .icons-content i {
     padding-right: .5rem;
+}
+
+/* Post Comments */
+.coments {
+    padding: 0 1rem;
 }
