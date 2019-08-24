@@ -26,17 +26,29 @@ h1, h2 {
     width: 400px
 }
 
+/* Post Header */
 .post-header {
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
+    vertical-align: middle;
 }
 
 .header-left {
     display: flex;
 }
 
+.header-logo {
+    font-size: 30px;
+}
+
 .header-text {
     display: flex;
     flex-wrap: wrap;
+    margin-left: .5rem;
     width: 50px;;
+}
+
+.icon {
+    font-size: 25px;
 }
