@@ -52,3 +52,12 @@ h1, h2 {
 .icon {
     font-size: 25px;
 }
+
+/* Post Image */
+.post-image {
+    background-image: url(https://tuscanyuntouchedtours.com/wp-content/uploads/2018/12/Best-of-Tuscany-in-3-days.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+}
