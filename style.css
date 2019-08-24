@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    display: inline-block;
+    font-family: 'Helvetica neue';
+    margin: 0;
+}
+
+.bold-text {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Helvetica neue';
+}
+
+.normal-text {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Post */
+.post {
+    background-color: white;
+    height: 500px;
+    width: 400px
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+}
+
+.header-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;;
+}
